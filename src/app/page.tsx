@@ -23,7 +23,7 @@ export default function Home() {
 
         {/* 소개글 */}
         <p className="text-sm sm:text-base leading-relaxed text-purple-200/90 break-keep font-normal">
-          안녕하세요! 사용자 경험과 깨끗한 코드를 지향하는 웹 개발자입니다. 문제를 정의하고 해결하는 과정을 즐깁니다.
+          안녕하세요! 바이브 코딩을 배우고 있는 대학생입니다.
         </p>
 
         {/* 배지 (세 개 가로 배치) */}
