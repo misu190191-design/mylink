@@ -13,14 +13,14 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "도지선 | 프로필",
-  description: "안녕하세요! 바이브 코딩을 배우고 있는 대학생 도지선입니다.",
+  title: "도지선 | Developer Profile",
+  description: "사용자 중심의 직관적인 웹 경험을 만들어가는 주니어 개발자 도지선입니다.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
-      lang="en"
+      lang="ko"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
